@@ -36,8 +36,8 @@ class model_input(BaseModel):
    JitterDDP : float
    MDVPShimmer : float
    MDVPShimmer1 : float
-    ShimmerAPQ3 : float
-    ShimmerAPQ5 : float
+   ShimmerAPQ3 : float
+   ShimmerAPQ5 : float
    MDVPAPQ : float
    ShimmerDDA : float
    NHR : float
