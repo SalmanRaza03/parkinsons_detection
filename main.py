@@ -9,7 +9,7 @@ Original file is located at
 
 from fastapi import FastAPI
 
-from fast.middleware.cors import CORSMiddleware
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import pickle
 import json
