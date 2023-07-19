@@ -88,6 +88,6 @@ def parkinsons_pred(input_parameters : model_input):
     prediction = my_model.predict([input_list])
 
     if(prediction[0] == 0):
-      print("The person doesn't have parkinsons disease")
+      return "The person doesn't have parkinsons disease"
     else:
-      print("The person has parkinsons disease")
+      return "The person has parkinsons disease"
