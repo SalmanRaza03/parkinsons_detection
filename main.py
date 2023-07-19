@@ -66,11 +66,11 @@ def parkinsons_pred(input_parameters : model_input):
     jit1 = input_dictionary['MDVPJitter1']
     mdRap = input_dictionary['MDVPRAP']
     mdPq = input_dictionary['MDVPPPQ']
-    JitDdp = input_dictionary['JitterDDP']
+    jitDdp = input_dictionary['JitterDDP']
     msSh = input_dictionary['MDVPShimmer']
     msSh1 = input_dictionary['MDVPShimmer1']
     sAP = input_dictionary['ShimmerAPQ3']
-    sAP = input_dictionary['ShimmerAPQ5']
+    sAP1 = input_dictionary['ShimmerAPQ5']
     mdPq1 = input_dictionary['MDVPAPQ']
     shDda = input_dictionary['ShimmerDDA']
     nhr = input_dictionary['NHR']
@@ -83,7 +83,7 @@ def parkinsons_pred(input_parameters : model_input):
     ppe = input_dictionary['PPE']
 
 
-    input_list = [mdFo, mdFhi, mdFlo, jit, jit1, mdRap, mdPq, JitDdp, msSh, msSh1, mdPq1, shDda, nhr, hnr, rpde, dfa, sp1, sp2, d2, ppe]
+    input_list = [mdFo, mdFhi, mdFlo, jit, jit1, mdRap, mdPq, jitDdp, msSh, msSh1,sAP, sAP1, mdPq1, shDda, nhr, hnr, rpde, dfa, sp1, sp2, d2, ppe]
 
     prediction = my_model.predict([input_list])
 
