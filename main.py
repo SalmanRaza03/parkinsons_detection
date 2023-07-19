@@ -69,6 +69,8 @@ def parkinsons_pred(input_parameters : model_input):
     JitDdp = input_dictionary['JitterDDP']
     msSh = input_dictionary['MDVPShimmer']
     msSh1 = input_dictionary['MDVPShimmer1']
+    sAP = input_dictionary['ShimmerAPQ3']
+    sAP = input_dictionary['ShimmerAPQ5']
     mdPq1 = input_dictionary['MDVPAPQ']
     shDda = input_dictionary['ShimmerDDA']
     nhr = input_dictionary['NHR']
