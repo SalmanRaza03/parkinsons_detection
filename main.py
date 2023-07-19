@@ -44,8 +44,8 @@ class model_input(BaseModel):
    HNR : float
    RPDE : float
    DFA : float
-   spread1 : float
-   spread2 : float
+   Spread1 : float
+   Spread2 : float
    D2 : float
    PPE : float
 
@@ -77,8 +77,8 @@ def parkinsons_pred(input_parameters : model_input):
     hnr = input_dictionary['HNR']
     rpde = input_dictionary['RPDE']
     dfa = input_dictionary['DFA']
-    sp1 = input_dictionary['spread1']
-    sp2 = input_dictionary['spread2']
+    sp1 = input_dictionary['Spread1']
+    sp2 = input_dictionary['Spread2']
     d2 = input_dictionary['D2']
     ppe = input_dictionary['PPE']
 
